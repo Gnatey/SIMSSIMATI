@@ -1,0 +1,536 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.hero-content a {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-video {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.content-block {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-block h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.content-block p {
+    margin-bottom: 20px;
+}
+
+.content-block a {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.call-to-action a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center
+}
+
+/* Welcome Section Styles */
+.welcome-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.welcome-message {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
+section {
+    margin-bottom: 30px;
+}
+
+.mod-section .mod-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mod-item {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mod-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.mod-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.mod-item p {
+    color: #666;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.download-link {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-link:hover {
+    background-color: #45a049;
+}
+
+footer p {
+    margin: 0;
+}
+
+.call-to-action {
+    margin-top: 20px;
+}
+
+.call-to-action a {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.call-to-action a:hover {
+    background-color: #45a049;
+}
+
+
+/* Styles généraux pour toutes les sections */
+section {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section img {
+    width: 185px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+
+.img-astuce img {
+    width: 800px;
+    border: groove;
+    margin-left: 250px;
+}
+
+.img-logo {
+    display: flex;
+    align-items: center;
+}
+
+.img-logo img {
+    margin: -20px 0px 0px -20px;
+    width: 40px;
+}
+
+.img-droite {
+    display: flex;
+    align-items: center;
+}
+
+.img-droite img{
+    margin: -20px 0px 0px -20px;
+    width: 250px;
+    border: groove;
+}
+
+section p {
+    margin: 30px;
+    color: #333;
+}
+
+/* Styles spécifiques gameplay*/
+#special-section p {
+    margin: 20px 30px 30px 223px;
+    color: #333;
+    letter-spacing: 2px;
+    line-height: 2.5em;
+}
+
+
+
+/* Liens de téléchargement */
+.dowload {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dowload a {
+    margin: 0 10px;
+}
+
+.dowload a img {
+    width: 50px;
+}
+
+/* Styles spécifiques à la page Gameplay */
+
+/* Article */
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+article h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+article p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Aside */
+aside {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+aside h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+aside a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+aside a:hover {
+    color: #4CAF50;
+}  
+
+/* Header */
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.blog-title {
+    margin: 0;
+}
+
+/* Article */
+.blog-article {
+    padding: 20px;
+}
+
+.article-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Aside - Navigation rapide */
+.quick-navigation {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quick-navigation h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.quick-navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-navigation li {
+    margin-bottom: 10px;
+}
+
+.quick-navigation a {
+    color: #333;
+    text-decoration: none;
+}
+
+.quick-navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.call-to-action {
+    margin-top: 20px;
+}
+
+.call-to-action a {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.blog-title {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #4CAF50; /* Couleur de fond par défaut */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #B6E3C9; /* Nouvelle couleur de fond au survol */
+    border-radius: 5px;
+}
+
+.buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.buttons button {
+  margin: 62px 20px 5px 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modifier le bouton "Se connecter" */
+.login-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    display: inline-block; /* Ajouter cette propriété */
+}
+
+.login-button:hover {
+    background-color: #B6E3C9;
+}
+
+.login-link {
+  text-decoration: none; /* Supprimer la décoration de lien par défaut */
+}
+
+form {
+    margin-top: 20px;    
+}
+.form-group {
+    margin-bottom: 20px;
+    
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input.nom,
+input.prenom,
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+.signup-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+.container-seconnecter {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align:center;
+}
+
+.form-left{
+     display: flex;
+     align-items: center;
+}
+
+.form-group-1 input[type="checkbox"] {
+    margin: 5px 20px 10px 10px;
+}
+
+.form-group-1 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 40px 0px 30px 0px;
+}
